@@ -1,16 +1,4 @@
-// desc:
-// Buatlah program untuk memeriksa apakah array M dan N sama.
-// M dan N adalah array of Point, masing-masing memiliki 5 elemen. Array M dan N dikatakan sama jika setiap elemen yang bersesuaian bernilai sama.
-// Gunakan tipe data bentukan komposit bernama Point sebagai berikut:
-// typedef struct {
-// int x;
-// int y;
-// } Point;
-// Spesifikasi Input
-// Lima baris pertama berisi 5 elemen Point untuk array M, terdiri dari dua bilangan bulat yang masing-masing menunjukkan koordinat di sumbu x dan y.
-// Lima baris kedua berisi 5 element Point untuk array N.
-// Spesifikasi Output
-// Satu baris berisi "sama" apabila array M dan N sama, atau "tidak sama" apabila array M dan N tidak sama.
+// desc: program untuk memeriksa apakah array M dan N sama.
 // author: vermilion10
 // date: 6 januari 2025
 
