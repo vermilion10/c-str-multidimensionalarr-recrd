@@ -6,6 +6,7 @@
 #include <string.h>
 #include <ctype.h>
 
+//prosedur untuk membaca input
 void readInput(char *teks, char *huruf1, char *huruf2, char *huruf3) {
     fgets(teks, 41, stdin);
     scanf(" %c", huruf1);
@@ -13,6 +14,7 @@ void readInput(char *teks, char *huruf1, char *huruf2, char *huruf3) {
     scanf(" %c", huruf3);
 }
 
+//prosedur untuk mengubah semua huruf dalam array of character menjadi huruf kecil
 void toKecil(char *teks, char *huruf1, char *huruf2, char *huruf3) {
     int panjang = strlen(teks);
     for(int i = 0; i < panjang; i++) {
@@ -23,6 +25,7 @@ void toKecil(char *teks, char *huruf1, char *huruf2, char *huruf3) {
     *huruf3 = tolower(*huruf3);
 }
 
+//fungsi untuk menghitung jumlah kemunculan tiga buah huruf berpasangan
 int countMuncul(char *teks, char huruf1, char huruf2, char huruf3) {
     int panjang = strlen(teks);
     int count = 0;
@@ -34,6 +37,7 @@ int countMuncul(char *teks, char huruf1, char huruf2, char huruf3) {
     return count;
 }
 
+//prosedur untuk menampilkan hasil
 void printResult(int hasil) {
     printf("%d\n", hasil);
 }
